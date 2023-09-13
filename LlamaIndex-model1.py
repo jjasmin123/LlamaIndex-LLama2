@@ -1,5 +1,8 @@
 # For OpenAI
 
+response = query_engine.query("How to do data cleansing in auction fraud detection? Provide the steps")
+display(Markdown(f"<b>{response}</b>"))
+
 import os
 
 os.environ["OPENAI_API_KEY"] = "sk-..."
